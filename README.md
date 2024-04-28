@@ -1,7 +1,7 @@
 # PyPI_Markdown_Link_Check
 
 ## Overview
-The PyPI Markdown Link Check is a Python script designed to help users check the validity of markdown links found on the Python Package Index (PyPI) website (`pypi.org`) from GitHub. It fetches the specified PyPI webpage and checks if there is markdown link is invalid.
+The PyPI Markdown Link Check is a Python script designed to help users check the validity of markdown links found on the Python Package Index (PyPI) website (`pypi.org`) from GitHub. It fetches the specified PyPI webpage and checks if some markdown links are invalid.
 
 ## Dependencies
 The script requires the following dependencies:
