@@ -38,4 +38,4 @@ This command will check the markdown links found on the specified PyPI webpage a
 - Due to the nature of web content, links may change or become unavailable over time. Therefore, the script provides a snapshot of link validity at the time of execution.
 
 ## License
-This repository is licend under the [Unlicense](LICENSE)
+This repository is licensed under the [Unlicense](LICENSE)
