@@ -1,7 +1,7 @@
-# PyPI_Markdown_Link_Check
+# PyPI_Relative_Path_Check
 
 ## Overview
-The PyPI Markdown Link Check is a Python script designed to help users check the validity of markdown links found on the Python Package Index (PyPI) website (`pypi.org`) from GitHub. It fetches the specified PyPI webpage and checks if some markdown links are invalid.
+The PyPI_Relative_Path_Check is a Python script designed to help users to validate if the relative paths found on a PyPI project has issues. It fetches the specified PyPI relative paths and checks if they are valid.
 
 ## Dependencies
 The script requires the following dependencies:
@@ -31,10 +31,10 @@ To use the script, you need to specify the URL of the PyPI webpage you want to c
 python script.py --link-url PyPI_URL
 ```
 
-This command will check the markdown links found on the specified PyPI webpage and report back if there is any typo
+This command will check the links found on the specified PyPI webpage and report back if there are relative paths having problems on the PyPI project
 
 ## Note
-- The script only checks the markdown links found within the provided PyPI webpage and excludes other links such as http or https links.
+- The script only checks the relative paths found within the provided PyPI webpage and excludes other links such as http or https links.
 - Due to the nature of web content, links may change or become unavailable over time. Therefore, the script provides a snapshot of link validity at the time of execution.
 
 ## License
