@@ -6,7 +6,7 @@ from requests.exceptions import ConnectionError
 def is_pypi_website(link_url):
     parsed_url = urlparse(link_url)
     return parsed_url.netloc == 'pypi.org'
-def check_links(link_url, timeout=5):
+def check_links(link_url):
     response = requests.get(link_url)
     if response.status_code != 200:
         print(f"Error: Failed to fetch {link_url}")
@@ -21,7 +21,7 @@ def check_links(link_url, timeout=5):
                 continue
             absolute_url = urljoin(link_url, href)
             try:
-                link_response = requests.head(absolute_url, timeout=timeout)
+                link_response = requests.head(absolute_url)
             except ConnectionError as e:
                 print(f"Connection error for link: {absolute_url}. Ignoring and continuing.")
                 continue
