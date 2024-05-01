@@ -14,8 +14,8 @@ The script requires the following dependencies:
 You can download the script using `git`
 
 ```bash
-git clone https://github.com/KPCOFGS/PyPI_Markdown_Link_Check.git
-cd PyPI_Markdown_Link_Check
+git clone https://github.com/KPCOFGS/PyPI_Relative_Path_Check.git
+cd PyPI_Relative_Path_Check
 ```
 
 You can install the dependencies using pip:
